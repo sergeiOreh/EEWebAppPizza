@@ -4,9 +4,9 @@
 <html>
 <head>
     <title>Pizza</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css">
-    <script src="${pageContext.request.contextPath}/resources/js/jquery.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/bootstrap.min.css">
+    <script src="${pageContext.request.contextPath}/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">
