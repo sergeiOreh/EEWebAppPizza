@@ -17,7 +17,7 @@ import java.util.List;
 public class CardServiceImpl implements CardService {
     private static CardServiceImpl instance;
 
-    public CardServiceImpl() {
+    private CardServiceImpl() {
     }
 
     public static final CardServiceImpl getInstance() {
