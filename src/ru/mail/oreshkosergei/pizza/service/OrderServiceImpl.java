@@ -13,7 +13,7 @@ public class OrderServiceImpl implements OrderService {
 
     private static OrderServiceImpl instance;
 
-    public OrderServiceImpl() {
+    private OrderServiceImpl() {
     }
 
     public static final OrderServiceImpl getInstance() {
