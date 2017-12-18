@@ -14,7 +14,7 @@ public class OrderRepositoryImpl implements OrderRepository {
 
     private static OrderRepositoryImpl instance;
 
-    public OrderRepositoryImpl() {
+    private OrderRepositoryImpl() {
     }
 
     public static final OrderRepositoryImpl getInstance() {
