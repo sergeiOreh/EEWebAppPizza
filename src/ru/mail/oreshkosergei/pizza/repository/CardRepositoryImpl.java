@@ -13,7 +13,7 @@ import java.util.List;
 public class CardRepositoryImpl implements CardRepository {
     private static CardRepositoryImpl instance;
 
-    public CardRepositoryImpl() {
+    private CardRepositoryImpl() {
     }
 
     public static final CardRepositoryImpl getInstance() {
