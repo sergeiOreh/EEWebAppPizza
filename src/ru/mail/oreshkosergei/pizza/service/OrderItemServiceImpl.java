@@ -13,7 +13,7 @@ public class OrderItemServiceImpl implements OrderItemService {
 
     private static OrderItemServiceImpl instance;
 
-    public OrderItemServiceImpl() {
+    private OrderItemServiceImpl() {
     }
 
     public static final OrderItemServiceImpl getInstance() {
